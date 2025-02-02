@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		806CEA4F2D4F18D3001AC8C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 806CEA362D4F18D2001AC8C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806CEA3D2D4F18D2001AC8C9;
+			remoteInfo = AbercrombieFitch;
+		};
+		806CEA592D4F18D3001AC8C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 806CEA362D4F18D2001AC8C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806CEA3D2D4F18D2001AC8C9;
+			remoteInfo = AbercrombieFitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		806CEA3E2D4F18D2001AC8C9 /* AbercrombieFitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbercrombieFitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		806CEA4E2D4F18D3001AC8C9 /* AbercrombieFitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbercrombieFitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		806CEA582D4F18D3001AC8C9 /* AbercrombieFitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbercrombieFitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		806CEA402D4F18D2001AC8C9 /* AbercrombieFitch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AbercrombieFitch;
+			sourceTree = "<group>";
+		};
+		806CEA512D4F18D3001AC8C9 /* AbercrombieFitchTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AbercrombieFitchTests;
+			sourceTree = "<group>";
+		};
+		806CEA5B2D4F18D3001AC8C9 /* AbercrombieFitchUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AbercrombieFitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806CEA3B2D4F18D2001AC8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806CEA4B2D4F18D3001AC8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806CEA552D4F18D3001AC8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		806CEA352D4F18D2001AC8C9 = {
+			isa = PBXGroup;
+			children = (
+				806CEA402D4F18D2001AC8C9 /* AbercrombieFitch */,
+				806CEA512D4F18D3001AC8C9 /* AbercrombieFitchTests */,
+				806CEA5B2D4F18D3001AC8C9 /* AbercrombieFitchUITests */,
+				806CEA3F2D4F18D2001AC8C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		806CEA3F2D4F18D2001AC8C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806CEA3E2D4F18D2001AC8C9 /* AbercrombieFitch.app */,
+				806CEA4E2D4F18D3001AC8C9 /* AbercrombieFitchTests.xctest */,
+				806CEA582D4F18D3001AC8C9 /* AbercrombieFitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806CEA3D2D4F18D2001AC8C9 /* AbercrombieFitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806CEA622D4F18D3001AC8C9 /* Build configuration list for PBXNativeTarget "AbercrombieFitch" */;
+			buildPhases = (
+				806CEA3A2D4F18D2001AC8C9 /* Sources */,
+				806CEA3B2D4F18D2001AC8C9 /* Frameworks */,
+				806CEA3C2D4F18D2001AC8C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				806CEA402D4F18D2001AC8C9 /* AbercrombieFitch */,
+			);
+			name = AbercrombieFitch;
+			packageProductDependencies = (
+			);
+			productName = AbercrombieFitch;
+			productReference = 806CEA3E2D4F18D2001AC8C9 /* AbercrombieFitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		806CEA4D2D4F18D3001AC8C9 /* AbercrombieFitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806CEA652D4F18D3001AC8C9 /* Build configuration list for PBXNativeTarget "AbercrombieFitchTests" */;
+			buildPhases = (
+				806CEA4A2D4F18D3001AC8C9 /* Sources */,
+				806CEA4B2D4F18D3001AC8C9 /* Frameworks */,
+				806CEA4C2D4F18D3001AC8C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806CEA502D4F18D3001AC8C9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				806CEA512D4F18D3001AC8C9 /* AbercrombieFitchTests */,
+			);
+			name = AbercrombieFitchTests;
+			packageProductDependencies = (
+			);
+			productName = AbercrombieFitchTests;
+			productReference = 806CEA4E2D4F18D3001AC8C9 /* AbercrombieFitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		806CEA572D4F18D3001AC8C9 /* AbercrombieFitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806CEA682D4F18D3001AC8C9 /* Build configuration list for PBXNativeTarget "AbercrombieFitchUITests" */;
+			buildPhases = (
+				806CEA542D4F18D3001AC8C9 /* Sources */,
+				806CEA552D4F18D3001AC8C9 /* Frameworks */,
+				806CEA562D4F18D3001AC8C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806CEA5A2D4F18D3001AC8C9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				806CEA5B2D4F18D3001AC8C9 /* AbercrombieFitchUITests */,
+			);
+			name = AbercrombieFitchUITests;
+			packageProductDependencies = (
+			);
+			productName = AbercrombieFitchUITests;
+			productReference = 806CEA582D4F18D3001AC8C9 /* AbercrombieFitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		806CEA362D4F18D2001AC8C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					806CEA3D2D4F18D2001AC8C9 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					806CEA4D2D4F18D3001AC8C9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 806CEA3D2D4F18D2001AC8C9;
+					};
+					806CEA572D4F18D3001AC8C9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 806CEA3D2D4F18D2001AC8C9;
+					};
+				};
+			};
+			buildConfigurationList = 806CEA392D4F18D2001AC8C9 /* Build configuration list for PBXProject "AbercrombieFitch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 806CEA352D4F18D2001AC8C9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 806CEA3F2D4F18D2001AC8C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806CEA3D2D4F18D2001AC8C9 /* AbercrombieFitch */,
+				806CEA4D2D4F18D3001AC8C9 /* AbercrombieFitchTests */,
+				806CEA572D4F18D3001AC8C9 /* AbercrombieFitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806CEA3C2D4F18D2001AC8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806CEA4C2D4F18D3001AC8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806CEA562D4F18D3001AC8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806CEA3A2D4F18D2001AC8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806CEA4A2D4F18D3001AC8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806CEA542D4F18D3001AC8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		806CEA502D4F18D3001AC8C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806CEA3D2D4F18D2001AC8C9 /* AbercrombieFitch */;
+			targetProxy = 806CEA4F2D4F18D3001AC8C9 /* PBXContainerItemProxy */;
+		};
+		806CEA5A2D4F18D3001AC8C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806CEA3D2D4F18D2001AC8C9 /* AbercrombieFitch */;
+			targetProxy = 806CEA592D4F18D3001AC8C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		806CEA602D4F18D3001AC8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		806CEA612D4F18D3001AC8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		806CEA632D4F18D3001AC8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AbercrombieFitch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vijay.AbercrombieFitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		806CEA642D4F18D3001AC8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AbercrombieFitch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vijay.AbercrombieFitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		806CEA662D4F18D3001AC8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vijay.AbercrombieFitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbercrombieFitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AbercrombieFitch";
+			};
+			name = Debug;
+		};
+		806CEA672D4F18D3001AC8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vijay.AbercrombieFitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbercrombieFitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AbercrombieFitch";
+			};
+			name = Release;
+		};
+		806CEA692D4F18D3001AC8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vijay.AbercrombieFitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AbercrombieFitch;
+			};
+			name = Debug;
+		};
+		806CEA6A2D4F18D3001AC8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vijay.AbercrombieFitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AbercrombieFitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		806CEA392D4F18D2001AC8C9 /* Build configuration list for PBXProject "AbercrombieFitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806CEA602D4F18D3001AC8C9 /* Debug */,
+				806CEA612D4F18D3001AC8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806CEA622D4F18D3001AC8C9 /* Build configuration list for PBXNativeTarget "AbercrombieFitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806CEA632D4F18D3001AC8C9 /* Debug */,
+				806CEA642D4F18D3001AC8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806CEA652D4F18D3001AC8C9 /* Build configuration list for PBXNativeTarget "AbercrombieFitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806CEA662D4F18D3001AC8C9 /* Debug */,
+				806CEA672D4F18D3001AC8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806CEA682D4F18D3001AC8C9 /* Build configuration list for PBXNativeTarget "AbercrombieFitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806CEA692D4F18D3001AC8C9 /* Debug */,
+				806CEA6A2D4F18D3001AC8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 806CEA362D4F18D2001AC8C9 /* Project object */;
+}
