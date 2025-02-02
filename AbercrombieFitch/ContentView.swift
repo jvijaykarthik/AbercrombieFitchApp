@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  AbercrombieFitch
 //
-//  Created by Deepika Robin on 2/1/25.
+//  Created by Vijay Karthik Jeyaraj on 2/1/25.
 //
 
 import SwiftUI
