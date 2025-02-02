@@ -11,7 +11,7 @@ import SwiftUI
 struct AbercrombieFitchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductListView()
         }
     }
 }
