@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 class ProductListViewModel: ObservableObject {
     @Published var products: [Product] = []
     @Published var errorMessage: String?

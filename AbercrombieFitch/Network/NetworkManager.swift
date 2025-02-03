@@ -30,8 +30,8 @@ public class NetworkManager {
                 throw Error.invalidResponse
             }
             
-            let users = try JSONDecoder().decode(type, from: data)
-            return users
+            let decodedJSONData = try JSONDecoder().decode(type, from: data)
+            return decodedJSONData
             
         } catch {
             throw Error.invalidData

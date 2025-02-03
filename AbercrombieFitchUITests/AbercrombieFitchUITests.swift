@@ -70,7 +70,7 @@ final class AbercrombieFitchUITests: XCTestCase {
     }
 }
 
-// ✅ Utility function to adjust text size for accessibility
+// Utility function to adjust text size for accessibility
 extension XCUIApplication {
     func adjustTextSizeToLarger() {
         self.launchArguments.append("UIAccessibilityTextSizeLarger")

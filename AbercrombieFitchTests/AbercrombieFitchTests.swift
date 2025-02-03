@@ -42,6 +42,16 @@ final class AbercrombieFitchTests: XCTestCase {
         XCTAssertNotNil(viewModel.errorMessage, "Error message should not be nil")
     }
     
+    func testProductContent() async {
+        await viewModel.fetchProducts()
+        
+        XCTAssertEqual(viewModel.products[1].content?.count, 1, "Expected 1 content")
+        XCTAssertEqual(viewModel.products[1].content?[0].target, "https://abercrombie.com", "First content target should match")
+        if let contentTargetURLString = viewModel.products[1].content?[0].target {
+            XCTAssertTrue(isValidURL(contentTargetURLString))
+        }
+    }
+    
     func testBackgroungImageIsValidURL() async {
         await viewModel.fetchProducts()
         

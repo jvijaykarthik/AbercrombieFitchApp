@@ -13,14 +13,13 @@ struct ProductView: View {
     var body: some View {
         VStack(alignment: .leading) {
             // Background Image
-            AsyncImage(url: URL(string: product.backgroundImage)) { phase in
-                if let image = phase.image {
-                    image
-                        .resizable()
-                        .scaledToFill()
-                } else {
-                    ProgressView() // Loading indicator
-                }
+            // TODO Cache image for better performance
+            AsyncImage(url: URL(string: product.backgroundImage)) { image in
+                image
+                    .resizable()
+                    .scaledToFill()
+            } placeholder: {
+                ProgressView()
             }
             .frame(maxWidth: .infinity)
             .accessibilityIdentifier("backgroundImage")
