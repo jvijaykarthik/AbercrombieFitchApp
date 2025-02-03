@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Product: Codable {
+struct Product: Codable, Hashable {
     let title: String
     let backgroundImage: String
     let promoMessage: String?
@@ -16,7 +16,7 @@ struct Product: Codable {
     let content: [Content]?
 }
 
-struct Content: Codable {
+struct Content: Codable, Hashable {
     let title: String
     let target: String
     let elementType: String?

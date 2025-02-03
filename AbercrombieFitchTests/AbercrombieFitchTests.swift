@@ -28,18 +28,31 @@ final class AbercrombieFitchTests: XCTestCase {
     }
 
     func testFetchProducts_Success() async {
-            await viewModel.fetchProducts()
+        await viewModel.fetchProducts()
+        
+        XCTAssertEqual(viewModel.products.count, 2, "Expected 2 products")
+        XCTAssertEqual(viewModel.products.first?.title, "Product 1", "First product title should match")
+    }
 
-            XCTAssertEqual(viewModel.products.count, 2, "Expected 2 products")
-            XCTAssertEqual(viewModel.products.first?.title, "Product 1", "First product title should match")
+    func testFetchProducts_Failure() async {
+        mockService.shouldReturnError = true
+
+        await viewModel.fetchProducts()
+
+        XCTAssertNotNil(viewModel.errorMessage, "Error message should not be nil")
+    }
+    
+    func testBackgroungImageIsValidURL() async {
+        await viewModel.fetchProducts()
+        
+        if let imageURLString = viewModel.products.first?.backgroundImage {
+            XCTAssertTrue(isValidURL(imageURLString))
         }
+        XCTAssertFalse(isValidURL(viewModel.products[1].backgroundImage))
+    }
 
-        func testFetchProducts_Failure() async {
-            mockService.shouldReturnError = true
-
-            await viewModel.fetchProducts()
-
-            XCTAssertNotNil(viewModel.errorMessage, "Error message should not be nil")
-        }
-
+    func isValidURL(_ urlString: String) -> Bool {
+        guard let url = URL(string: urlString) else { return false }
+        return UIApplication.shared.canOpenURL(url)
+    }
 }

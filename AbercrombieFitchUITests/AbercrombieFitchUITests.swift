@@ -9,26 +9,54 @@ import XCTest
 
 final class AbercrombieFitchUITests: XCTestCase {
 
+    let app = XCUIApplication()
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
 
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        app.launch()
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    @MainActor
-    func testExample() throws {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
+    func testProductViewUI() {
+        // Check if title exists
+        let title = app.staticTexts["productTitle"]
+        XCTAssertTrue(title.exists, "Product title should be visible")
+        
+        // Check if description exists
+        let topDescription = app.staticTexts["topDescription"]
+        XCTAssertTrue(topDescription.exists, "Top description should be visible")
+        
+        // Check if background image exists
+        let backgroundImage = app.images["backgroundImage"]
+        XCTAssertTrue(backgroundImage.exists, "Background image should be visible")
+        
+        // Verify button interactions
+        let button = app.buttons["button_Shop Men"] // Change based on content title
+        XCTAssertTrue(button.exists, "Buy Now button should be visible")
+        button.tap()
+    }
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testScrollingInList() {
+        let tableView = app.tables.firstMatch
+        
+        XCTAssertTrue(tableView.waitForExistence(timeout: 10), "List (UITableView) should exist")
+
+        // Perform scrolling gestures
+        tableView.swipeUp()
+        tableView.swipeDown()
+    }
+
+    func testDynamicFontScaling() {
+        let title = app.staticTexts["productTitle"]
+        XCTAssertTrue(title.exists, "Product title should be visible")
+        
+        // Simulate increased font size
+        app.adjustTextSizeToLarger()
+        XCTAssertTrue(title.exists, "Product title should be visible after font size increase")
     }
 
     @MainActor
@@ -39,5 +67,13 @@ final class AbercrombieFitchUITests: XCTestCase {
                 XCUIApplication().launch()
             }
         }
+    }
+}
+
+// ✅ Utility function to adjust text size for accessibility
+extension XCUIApplication {
+    func adjustTextSizeToLarger() {
+        self.launchArguments.append("UIAccessibilityTextSizeLarger")
+        self.launch()
     }
 }

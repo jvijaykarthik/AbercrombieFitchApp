@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ProductListView: View {
+    
+    @StateObject var viewModel: ProductListViewModel = ProductListViewModel(service: ProductListService())
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List {
+            ForEach(viewModel.products, id: \.self) { product in
+                ProductView(product: product)
+                .listRowSeparator(.hidden)
+            }
+        }.task {
+            await viewModel.fetchProducts()
+        }.refreshable {
+            await viewModel.fetchProducts()
         }
-        .padding()
+        .frame(maxWidth: .infinity)
+        .edgesIgnoringSafeArea([.leading, .bottom])
+        .listStyle(GroupedListStyle())
     }
 }
 
